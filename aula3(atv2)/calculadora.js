@@ -42,8 +42,7 @@ rl.question('Digite o primeiro número: ', (num1Input) => {
       if (operacaoValida) {
         console.log(`Resultado: ${num1} ${operador} ${num2} = ${resultado}`);
       }
-
-      // Fecha a interface do terminal
+      
       rl.close();
     });
   });
